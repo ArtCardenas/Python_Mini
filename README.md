@@ -31,9 +31,9 @@ python -m venv artvenv
 # alternative method, the ~/.    could be as just ~/artvenv
 virtualenv --python $(which python) ~/.artvenv
 
-# activate virtual environment
+# activate virtual environment Windows
 artvenv\Scripts\activate
-# alternate
+# alternate Linux
 source ~/.artvenv/bin/activate
 
 
