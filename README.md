@@ -11,7 +11,6 @@ git push
 ```
 
 to force a push
-
 ```bash
 git push -f
 ```
