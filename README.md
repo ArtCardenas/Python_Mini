@@ -1,17 +1,17 @@
 # Python_Mini
 
-'git' commands
+`git` commands
 
-'''bash
+```bash
 git status
 git add main.py
 git commit -m "pushing a build trigger 2nd time"
 
 git push
-'''
+```
 
 to force a push
 
-'''bash
+```bash
 git push -f
-'''
+```
