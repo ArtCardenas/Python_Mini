@@ -28,14 +28,22 @@ You can [follow instructions here](https://realpython.com/python-virtual-environ
 ```bash
 # create virtual environment
 python -m venv artvenv
+# alternative method, the ~/.    could be as just ~/artvenv
+virtualenv --python $(which python) ~/.artvenv
+
 # activate virtual environment
 artvenv\Scripts\activate
+# alternate
+source ~/.artvenv/bin/activate
+
+
 # install packages
 python -m pip install numpy
 ```
 ```bash
 # deactivate
 deactivate
+
 # upgrade pip
 python.exe -m pip install --upgrade pip
 python -m pip list
