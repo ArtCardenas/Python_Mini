@@ -45,6 +45,7 @@ source ~/artvenv/bin/activate
 
 # install packages
 python -m pip install numpy
+python -m pip install scikit-learn
 ```
 ```bash
 # deactivate
