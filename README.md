@@ -35,12 +35,12 @@ You can [follow instructions here](https://realpython.com/python-virtual-environ
 # create virtual environment
 python -m venv artvenv
 # alternative method, the ~/.    could be as just ~/artvenv
-virtualenv --python $(which python) ~/.artvenv
+virtualenv --python $(which python) ~/artvenv
 
 # activate virtual environment Windows
 artvenv\Scripts\activate
 # alternate Linux
-source ~/.artvenv/bin/activate
+source ~/artvenv/bin/activate
 
 
 # install packages
