@@ -1,5 +1,6 @@
 # Python_Mini
 
+## Git
 `git` commands
 
 ```bash
@@ -19,4 +20,24 @@ to read from GitHub Repository to CodeSpace, either normal or -f = Force
 ```bash
 git pull
 git pull -f
+```
+
+## Python Environment
+You can [follow instructions here](https://realpython.com/python-virtual-environments-a-primer/).
+
+```bash
+# create virtual environment
+python -m venv artvenv
+# activate virtual environment
+artvenv\Scripts\activate
+# install packages
+python -m pip install numpy
+```
+```bash
+# deactivate
+deactivate
+# upgrade pip
+python.exe -m pip install --upgrade pip
+python -m pip list
+python3 -m pip list
 ```
