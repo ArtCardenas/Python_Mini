@@ -1,5 +1,11 @@
 # Python_Mini
 
+## Python Version
+```powershell
+python --version     # Windows
+python3 --version    # Linux
+```
+
 ## Git
 `git` commands
 
