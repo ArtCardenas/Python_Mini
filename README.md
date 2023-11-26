@@ -4,6 +4,7 @@
 ```powershell
 python --version     # Windows
 python3 --version    # Linux
+sudo apt-get update  # Linux
 ```
 
 ## Git
