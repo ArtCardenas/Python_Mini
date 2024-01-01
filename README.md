@@ -4,7 +4,15 @@
 ```powershell
 python --version     # Windows
 python3 --version    # Linux
-sudo apt-get update  # Linux
+sudo apt-get update  # Linux Batch
+sudo apt     update  # interactive
+sudo apt-get upgrade # Linux Batch
+sudo apt     upgrade # Linix interactive
+$ free               # ram memory
+$ df -h              # disk space
+$ sudo fdisk -l      # partitions
+$ iwconfig           # similar to IPCONFIG in windows powershell
+
 ```
 
 ## Git
