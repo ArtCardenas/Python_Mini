@@ -65,6 +65,10 @@ python.exe -m pip install --upgrade pip
 python -m pip list
 python3 -m pip list
 ```
+or from terminal
+```
+pip install pandas
+```
 
 ## Notes from Noah Gift
 ====================================================
