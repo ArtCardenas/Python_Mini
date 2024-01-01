@@ -50,6 +50,8 @@ virtualenv --python $(which python) ~/artvenv
 artvenv\Scripts\activate
 # alternate Linux
 source ~/artvenv/bin/activate
+# Github Codespaces
+source artvenv/bin/activate
 
 
 # install packages
