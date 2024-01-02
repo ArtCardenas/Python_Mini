@@ -1,3 +1,5 @@
 # Environments folders
 artvenv/
 
+# Jupyter Notebook
+.ipynb_checkpoints
