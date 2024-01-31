@@ -37,6 +37,12 @@ git pull
 git pull -f
 ```
 
+Downloading the content of the GitHub repository needed for the labs
+In the terminal, type the following command:
+```bash
+git clone https://github.com/aws-samples/amazon-sagemaker-immersion-day.git
+```
+
 ## Python Environment
 You can [follow instructions here](https://realpython.com/python-virtual-environments-a-primer/).
 
