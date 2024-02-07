@@ -48,7 +48,9 @@ You can [follow instructions here](https://realpython.com/python-virtual-environ
 
 ```bash
 # create virtual environment
+# https://docs.python.org/3/library/venv.html
 python -m venv artvenv
+python -m venv ~/artvenv
 # alternative method, the ~/.    could be as just ~/artvenv
 virtualenv --python $(which python) ~/artvenv
 
